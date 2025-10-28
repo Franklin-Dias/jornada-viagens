@@ -5,7 +5,6 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
-  
 }
 .logo {
   width: 68px;
@@ -13,8 +12,12 @@ header {
   display: inline-block;
 }
 
-.navigation-menu{
-    margin-top: 24px;
+.navigation-menu {
+  margin-top: 24px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
 }
 
 nav {
