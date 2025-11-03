@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin-bottom: 80px;
 }
 
 .card {
@@ -44,6 +45,7 @@
 .card.japao {
   background: url(../img/bg-japao.png) no-repeat;
   background-size: cover;
+  
 }
 
 .card.san-andreas {
@@ -54,11 +56,13 @@
 .card.paraiba {
   background: url(../img/bg-paraiba.png) no-repeat;
   background-size: cover;
+  margin-bottom: 88px;
 }
 
 .card.manaus {
   background: url(../img/bg-manaus.png) no-repeat;
   background-size: cover;
+  margin-bottom: 88px;
 }
 
 @media screen and (min-width: 768px) {
