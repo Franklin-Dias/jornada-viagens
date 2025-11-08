@@ -1,7 +1,4 @@
-.categories .section-title{
-  width: 312px;
-  margin: 0 auto;
-}
+
 
 .categories {
   display: flex;
@@ -31,7 +28,6 @@
   font-weight: var(--title-weight);
   color: var(--text-primary-color);
   line-height: 36px;
-  
 }
 
 .categories a {
@@ -40,10 +36,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .categories .section-title{
-  width: 100%;
-  
-}
+  .categories .section-title {
+    width: 100%;
+  }
   .categories {
     display: flex;
     flex-direction: row;
@@ -60,6 +55,7 @@
     align-items: center;
     gap: 24px;
     margin: 0px;
+    margin-bottom: 80px;
   }
 
   .section-categories {
@@ -83,5 +79,6 @@
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    margin-bottom: 80px;
   }
 }
