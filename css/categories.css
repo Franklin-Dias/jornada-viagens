@@ -1,14 +1,11 @@
-.categories .section-title {
-  width: 312px;
-  margin: 0 auto;
-}
+
 
 .categories {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  margin-bottom: 80px;
+  
 }
 
 .section-categories {
@@ -58,6 +55,7 @@
     align-items: center;
     gap: 24px;
     margin: 0px;
+    margin-bottom: 80px;
   }
 
   .section-categories {
@@ -81,5 +79,6 @@
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    margin-bottom: 80px;
   }
 }
