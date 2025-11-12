@@ -70,6 +70,13 @@
     line-height: 32px;
   }
 }
+@media screen and (min-width: 1440px){
+  .categories {
+   margin: 0 auto;
+   margin-bottom: 80px;
+  }
+}
+
 
 @media screen and (min-width: 1920px) {
   .categories {

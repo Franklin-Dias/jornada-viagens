@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  margin-bottom: 80px;
+  margin-bottom: 88px;
+ 
 }
 
 .card {
@@ -56,13 +57,13 @@
 .card.paraiba {
   background: url(../img/bg-paraiba.png) no-repeat;
   background-size: cover;
-  margin-bottom: 88px;
+  
 }
 
 .card.manaus {
   background: url(../img/bg-manaus.png) no-repeat;
   background-size: cover;
-  margin-bottom: 88px;
+  
 }
 
 @media screen and (min-width: 768px) {
