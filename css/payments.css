@@ -1,0 +1,80 @@
+.text-content h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
+  letetter-spacing: 0%;
+  vertical-alignment: middle;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.text-content p {
+  font-size: 20px;
+  weight: 400;
+  line-height: 32px;
+  letetter-spacing: 0%;
+  vertical-alignment: middle;
+}
+.payments .content-container{
+  margin-bottom: 80px;
+}
+
+.payments .content-container .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.payments .content-container .image-gallery .image.bag {
+  background: url("../img/montagem-japao-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.passaport {
+  background: url("../img/montagem-japao-2-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.people {
+  background: url("../img/montagem-japao-3-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .content-container .image-gallery .image.bag {
+    background: url("../img/montagem-japao-1-tablet.png") no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.passaport {
+    background: url("../img/montagem-japao-2-tablet.png") no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.people {
+    background: url("../img/montagem-japao-3-tablet.png") no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    display: flex;
+    margin-bottom: 80px;
+  }
+  .payments .content-container {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .payments .text-content {
+    width: 360px;
+  }
+  .payments .content-container .image-gallery {
+    width: 790px;
+  }
+}
